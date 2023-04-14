@@ -1204,6 +1204,7 @@ a:focus {
 	font-size: 60px;
 	line-height: 1.15em;
 	color: #ffffff;
+	filter: drop-shadow(16px 16px 10px black);
 	font-weight: 700;
 	opacity: 0;
 	margin-bottom: 30px;
