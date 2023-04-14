@@ -1187,6 +1187,7 @@ a:focus {
 	-webkit-transform: translateY(-100px);
 	transform: translateY(-100px);
 	text-transform: capitalize;
+	filter: drop-shadow(6px 6px 10px black);
 }
 
 .banner-carousel .active .content-box h3 {
