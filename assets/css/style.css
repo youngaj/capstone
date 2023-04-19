@@ -784,6 +784,11 @@ a:focus {
 }
 
 .main-nav-one .logo-box {
+	display: grid;
+	align-items: center;
+	border: none;
+	width: 100%;
+	grid-template-columns: 1fr 30px;
 	/* border-right: 1px solid #e5e5e5;
 	padding: 38.25px 0;
 	padding-right: 75px; */

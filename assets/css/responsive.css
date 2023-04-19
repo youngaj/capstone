@@ -11,9 +11,11 @@
     }
 
     .main-nav-one .logo-box {
-        display: flex;
+        display: grid;
         align-items: center;
         border: none;
+        width: 100%;
+        grid-template-columns: 1fr 30px;    
     }
 
     .main-nav-one .main-nav__right {

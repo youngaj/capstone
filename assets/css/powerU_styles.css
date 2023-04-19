@@ -1,0 +1,15 @@
+.powerU_sections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.powerU_title {
+    font-weight: bold;
+}
+
+.powerU_bold {
+    font-weight: bold;
+}
