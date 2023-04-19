@@ -784,9 +784,9 @@ a:focus {
 }
 
 .main-nav-one .logo-box {
-	border-right: 1px solid #e5e5e5;
+	/* border-right: 1px solid #e5e5e5;
 	padding: 38.25px 0;
-	padding-right: 75px;
+	padding-right: 75px; */
 }
 
 .main-nav-one .main-nav__main-navigation {
@@ -811,7 +811,7 @@ a:focus {
 }
 
 .main-nav-one .main-nav__navigation-box>li {
-	padding: 45.75px 0;
+	padding: 20px 0;
 }
 
 .main-nav-one .main-nav__navigation-box>li+li {
@@ -827,12 +827,12 @@ a:focus {
 	        align-items: center;
 }
 
-.main-nav-one .main-nav__navigation-box .dropdown>a::after {
+/* .main-nav-one .main-nav__navigation-box .dropdown>a::after {
 	content: "\f107";
 	font-family: "Font Awesome 5 Free";
 	font-weight: 900;
 	margin-left: 10px;
-}
+} */
 
 /* Dropdown menu */
 
@@ -956,8 +956,8 @@ a:focus {
 	-webkit-box-align: center;
 	        align-items: center;
 	border-left: 1px solid #e5e5e5;
-	padding: 46px 0;
-	padding-left: 50px;
+	padding: 20px 0;
+	padding-left: 20px;
 	margin-left: 50px;
 }
 
@@ -995,8 +995,8 @@ a:focus {
 }
 
 .stricked-menu .logo-box {
-	padding-top: 14.25px;
-	padding-bottom: 14.25px;
+	/* padding-top: 14.25px;
+	padding-bottom: 14.25px; */
 }
 
 .stricked-menu .main-nav__main-navigation .main-nav__navigation-box>li {
@@ -4205,7 +4205,7 @@ a:focus {
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-image: url(../images/backgrounds/stem-background.jpg);
+	background-image: url(../images/backgrounds/stem-background.webp);
 }
 
 .about-two {
