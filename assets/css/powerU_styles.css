@@ -13,3 +13,14 @@
 .powerU_bold {
     font-weight: bold;
 }
+
+.powerU_subheading{
+    font-weight: bold;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+.powerU_centered_instructions {
+    text-align: center;
+    color: green;
+}
