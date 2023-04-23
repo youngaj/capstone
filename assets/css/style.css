@@ -947,6 +947,12 @@ a:focus {
 	opacity: 1;
 }
 
+.main-nav__main-navigation .main-nav__navigation-box>li>ul>li:active>ul {
+	-webkit-transform: perspective(300px) scaleX(1);
+	transform: perspective(300px) scaleX(1);
+	visibility: visible;
+	opacity: 1;
+}
 /* After Third level menu */
 
 .main-nav__main-navigation .main-nav__navigation-box>li>ul>li>ul>li>ul {
