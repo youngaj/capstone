@@ -1827,6 +1827,9 @@ a:focus {
 }
 
 .collection-one__single>img {
+	width: 300px;
+		height: 437px;
+		object-fit: cover;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
@@ -1839,8 +1842,8 @@ a:focus {
 }
 
 .collection-one__content {
-	position: absolute;
-	bottom: 80px;
+	/* position: absolute;
+	bottom: 80px; */
 	left: 0;
 	width: 100%;
 }
@@ -1851,7 +1854,7 @@ a:focus {
 	line-height: 36px;
 	font-weight: bold;
 	color: #fff;
-	width: 50%;
+	/* width: 50%; */
 }
 
 @media (max-width: 1440px) {
