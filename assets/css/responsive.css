@@ -155,8 +155,9 @@
     }
 
     .about-one__moc {
-        left: auto;
-        right: -30%;
+        display: none;
+        /* left: auto;
+        right: -30%; */
     }
 
     .event-one__content {
@@ -535,6 +536,7 @@
     }
 
     .about-one__moc {
+        display: none;
         right: -50%;
     }
 

@@ -4120,7 +4120,6 @@ a:focus {
 .about-one__moc {
 	position: absolute;
 	bottom: -75px;
-	left: -70px;
 	/* -webkit-animation: ImgBounce 5s ease-in-out 0s infinite alternate;
 	        animation: ImgBounce 5s ease-in-out 0s infinite alternate; */
 	-webkit-transform: scaleX(-1);
