@@ -24,3 +24,15 @@
     text-align: center;
     color: green;
 }
+
+@media(max-width: 625px) {
+    .powerU_sections {
+        grid-template-columns: 1fr 1fr;
+    }    
+}
+
+@media(max-width: 480px) {
+    .powerU_sections {
+        grid-template-columns: 1fr;
+    }    
+}
