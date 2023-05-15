@@ -4071,10 +4071,10 @@ a:focus {
 	        justify-content: space-between;
 }
 
-.site-footer__bottom-logo {
+/* .site-footer__bottom-logo {
 	-webkit-transform: translateY(-30px);
 	        transform: translateY(-30px);
-}
+} */
 
 .site-footer__bottom p {
 	margin: 0;
