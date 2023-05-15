@@ -34,5 +34,8 @@
 @media(max-width: 480px) {
     .powerU_sections {
         grid-template-columns: 1fr;
+        gap: 0rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }    
 }
