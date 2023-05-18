@@ -1791,9 +1791,11 @@ a:focus {
 
 .collection-one__carousel {
 	width: 100%;
-	max-width: 1745px;
 	margin-left: auto;
-	margin-right: -200px;
+	margin-right: auto;
+	/* max-width: 1745px; */
+	/* margin-left: auto;
+	margin-right: -200px; */
 	margin-top: 90px;
 }
 
@@ -1827,9 +1829,9 @@ a:focus {
 }
 
 .collection-one__single>img {
-	width: 300px;
-		height: 437px;
-		object-fit: cover;
+	min-width: 315px;
+	height: 437px;
+	object-fit: cover;
 	-webkit-transition: 0.5s;
 	transition: 0.5s;
 	-webkit-clip-path: polygon(0 10%, 100% 0, 100% 100%, 0 90%);
@@ -3705,6 +3707,8 @@ a:focus {
 .cta-two__box p {
 	margin: 0;
 	margin-bottom: 20px;
+	margin-left: 1.5rem;
+	margin-right: 1.5rem;
 }
 
 .cta-two__box .thm-btn {

@@ -20,6 +20,11 @@
     margin-bottom: .5rem;
 }
 
+.powerU_callToAction {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+
 .powerU_centered_instructions {
     text-align: center;
     color: green;
