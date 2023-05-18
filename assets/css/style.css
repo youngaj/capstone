@@ -44,7 +44,7 @@ font-family: 'Work Sans', sans-serif; */
 
 :root {
 	--thm-font: "Karla", sans-serif;
-	--heading-font: "Playfair Display", serif;
+	--heading-font: "Playfair Display";
 	--special-font: "Work Sans", sans-serif;
 	--thm-base: #aaa081;
 	--thm-base-rgb: 170, 160, 129;
@@ -4148,7 +4148,7 @@ a:focus {
 	font-size: 24px;
 	line-height: 44px;
 	margin: 0;
-	font-weight: 400;
+	font-weight: 600;
 	padding-right: 35px;
 }
 

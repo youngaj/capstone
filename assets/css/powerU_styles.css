@@ -1,9 +1,23 @@
 .powerU_sections {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr;
     gap: 1.5rem;
     margin-top: 3rem;
     margin-bottom: 1rem;
+    /* border:2px solid red; */
+}
+
+.powerU_subSections {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+    /* border: 1px solid green */
+}
+
+
+.powerU_module_image {
+    width: 100%;
 }
 
 .powerU_title {
@@ -42,5 +56,13 @@
         gap: 0rem;
         margin-top: 1rem;
         margin-bottom: 1rem;
-    }    
+    }  
+    .powerU_subSections {
+        grid-template-columns: 1fr;
+        margin-bottom: .5rem;
+        direction: rtl;
+    }
+    .powerU_subSection_image {
+        display: none
+    }
 }
