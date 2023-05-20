@@ -1,68 +1,81 @@
 .powerU_sections {
-    display: grid;
-    grid-template-columns: 1fr;
-    gap: 1.5rem;
-    margin-top: 3rem;
-    margin-bottom: 1rem;
-    /* border:2px solid red; */
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  /* border:2px solid red; */
 }
 
 .powerU_subSections {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-bottom: 2rem;
-    /* border: 1px solid green */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  /* border: 1px solid green */
 }
 
+.powerU_module_subText {
+  display: none;
+}
 
 .powerU_module_image {
-    width: 100%;
+  width: 100%;
 }
 
 .powerU_title {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .powerU_bold {
-    font-weight: bold;
+  font-weight: bold;
 }
 
-.powerU_subheading{
-    font-weight: bold;
-    margin-top: .5rem;
-    margin-bottom: .5rem;
+.powerU_subheading {
+  font-weight: bold;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 
 .powerU_callToAction {
-    margin-left: 1.5rem;
-    margin-right: 1.5rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
 }
 
 .powerU_centered_instructions {
-    text-align: center;
-    color: green;
+  text-align: center;
+  color: green;
 }
 
-@media(max-width: 625px) {
-    .powerU_sections {
-        grid-template-columns: 1fr 1fr;
-    }    
+@media (max-width: 820px) {
+  .powerU_module_subText {
+    display: inline-block;
+  }
+  .powerU_sections {
+    display: none;
+  }
 }
 
-@media(max-width: 480px) {
-    .powerU_sections {
-        grid-template-columns: 1fr;
-        gap: 0rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }  
-    .powerU_subSections {
-        grid-template-columns: 1fr;
-        margin-bottom: .5rem;
-        direction: rtl;
-    }
-    .powerU_subSection_image {
-        display: none
-    }
+@media (max-width: 625px) {
+  .powerU_sections {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .powerU_sections {
+    display: none;
+    grid-template-columns: 1fr;
+    gap: 0rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+  .powerU_subSections {
+    grid-template-columns: 1fr;
+    margin-bottom: 0.5rem;
+    direction: rtl;
+  }
+  .powerU_subSection_image {
+    display: none;
+  }
 }
