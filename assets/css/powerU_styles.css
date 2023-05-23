@@ -9,7 +9,7 @@
 
 .powerU_subSections {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3fr 2fr;
   gap: 1.5rem;
   margin-bottom: 2rem;
   /* border: 1px solid green */
@@ -21,6 +21,7 @@
 
 .powerU_module_image {
   width: 100%;
+  padding-top: 2rem;
 }
 
 .powerU_title {
