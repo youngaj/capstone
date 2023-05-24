@@ -1858,7 +1858,7 @@ a:focus {
 }
 
 .featured-collection__left .featured-collection__image {
-  margin-bottom: 80px;
+  margin-bottom: 1.5rem;
 }
 
 .featured-collection__left > p {
@@ -5204,9 +5204,8 @@ a:focus {
 .video-one {
   background-repeat: no-repeat;
   background-position: center center;
-  background-attachment: fixed;
+  background-attachment: unset;
   background-size: cover;
-
   position: relative;
 }
 

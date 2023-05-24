@@ -53,6 +53,21 @@
   color: green;
 }
 
+.powerU_quote {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+
+.powerU_quote_signature {
+  display: inline-block;
+  width: 100%;
+  text-align: right;
+  margin-top: 1.25rem;
+  color: #aaa081;
+  font-weight: 800;
+  font-style: italic;
+}
+
 @media (max-width: 820px) {
   .powerU_module_subText {
     display: inline-block;
