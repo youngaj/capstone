@@ -68,6 +68,17 @@
   font-style: italic;
 }
 
+@media (max-width: 1000px) {
+  .powerU_testimonial_section {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-top: 2rem;
+  }
+  .powerU_testimonial_picture {
+    margin-bottom: 1rem;
+  }
+}
+
 @media (max-width: 820px) {
   .powerU_module_subText {
     display: inline-block;
