@@ -68,6 +68,12 @@
   font-style: italic;
 }
 
+.powerU_timeline_image {
+  width: 100%;
+  max-width: 500px;
+  max-height: 370px;
+}
+
 @media (max-width: 1000px) {
   .powerU_testimonial_section {
     display: flex;

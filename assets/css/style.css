@@ -5302,7 +5302,7 @@ a:focus {
   position: absolute;
   width: 250px;
   height: 202px;
-  background-image: url(../images/shapes/about-dot-2.png);
+  /* background-image: url(../images/shapes/about-dot-2.png); */
   background-repeat: no-repeat;
   top: 50%;
   left: 0;
@@ -5831,8 +5831,8 @@ a:focus {
 --------------------------------------------------------------*/
 
 .faq-one {
-  padding-top: 150px;
-  padding-bottom: 110px;
+  margin-top: 150px;
+  margin-bottom: 110px;
 }
 
 .faq-one__top {
