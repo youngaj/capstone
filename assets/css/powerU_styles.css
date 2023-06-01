@@ -74,6 +74,16 @@
   max-height: 370px;
 }
 
+.powerU_table {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.powerU_table div {
+  padding: 1rem;
+  border: 1px solid;
+}
+
 @media (max-width: 1000px) {
   .powerU_testimonial_section {
     display: flex;

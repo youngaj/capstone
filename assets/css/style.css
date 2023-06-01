@@ -4311,7 +4311,7 @@ a:focus {
   position: relative;
 }
 
-.about-four::before {
+/* .about-four::before {
   content: "";
   position: absolute;
   top: 0;
@@ -4323,7 +4323,7 @@ a:focus {
   background-repeat: no-repeat;
   background-size: cover;
   background-image: url(../images/backgrounds/shuttle_launch2.jpg);
-}
+} */
 
 .about-four__content > p {
   font-size: 16px;
